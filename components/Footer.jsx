@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Footer = () => {
     return (
-        <section className='bg-[#2e7d32] py-6'>
+        <section className='bg-[#3482ad] py-6'>
             <div className='max-w-[1240px] justify-content mx-auto w-5/6 gap-16 md:flex'>
 
                 {/* left side contact */}
