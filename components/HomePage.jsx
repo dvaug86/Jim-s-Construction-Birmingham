@@ -4,7 +4,7 @@ const HomePage = () => {
   return (
     <div
       id="home"
-      className="h-screen mb-12 bg-fixed bg-center bg-cover custom-img flex justify-end items-end  "
+      className="h-screen  bg-fixed bg-center bg-cover custom-img flex justify-end items-end  "
     >
       <div className="  border rounded-full border-b-4 border-gray-500 h-[250px] w-[250px] bg-gray-200">
         <div className="flex-col align-middle m-9 top-0 left-0 right-0 bottom-0 h-[175px] w-[175px] z-10">

@@ -2,6 +2,7 @@ import Head from "next/head";
 import HomePage from "@/components/HomePage";
 import { createClient } from "contentful";
 import ProjectCard from "@/components/ProjectCard";
+import About from "@/components/About";
 
 export async function getStaticProps() {
   const client = createClient({
@@ -26,6 +27,7 @@ export default function Home({ projects }) {
       <link rel="icon" href="/favicon.ico" />
     </Head>
 <HomePage />
+<About />
 </div>
   );
 }
