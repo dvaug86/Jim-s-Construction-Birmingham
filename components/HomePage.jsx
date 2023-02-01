@@ -11,9 +11,12 @@ const HomePage = () => {
           <div className=" flex uppercase text-center font-bold text-2xl text-[#3482Ad]">
             building trust with quality work
           </div>
-          <button className="flex  text-center bg-[#3482Ad] hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 uppercase border-r-4 border-gray-500 hover:border-blue-500">
+          <div className="flex justify-center">
+          <button className="flex   text-center bg-[#3482Ad] hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 
+          uppercase border-r-4 border-gray-500 hover:border-blue-500">
             recent work
           </button>
+          </div>
         </div>
       </div>
     </div>
