@@ -51,13 +51,13 @@ const Navbar = () => {
                         <Link href='/'>
                             <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
                         </Link>
-                        <Link href='/'>
+                        <Link href='/contact'>
                             <li className="ml-10 text-sm uppercase hover:border-b">Contact Us</li>
                         </Link>
-                        <Link href='/'>
+                        <Link href='/services'>
                             <li className="ml-10 text-sm uppercase hover:border-b">Services</li>
                         </Link>
-                        <Link href='/'>
+                        <Link href='/gallery'>
                             <li className="ml-10 text-sm uppercase hover:border-b">Gallery</li>
                         </Link>
                         <Link href='/testimonials'>
@@ -93,16 +93,16 @@ const Navbar = () => {
                             <Link href='/'>
                                 <li onClick={() => setNav(false)} className='py-4 text-base'>Home</li>
                             </Link>
-                            <Link href='/'>
+                            <Link href='/contact'>
                                 <li onClick={() => setNav(false)} className='py-4 text-base'>Contact Us</li>
                             </Link>
-                            <Link href='/'>
+                            <Link href='/services'>
                                 <li onClick={() => setNav(false)} className='py-4 text-base'>Services</li>
                             </Link>
-                            <Link href='/'>
+                            <Link href='/gallery'>
                                 <li onClick={() => setNav(false)} className='py-4 text-base'>Gallery</li>
                             </Link>
-                            <Link href='/'>
+                            <Link href='/testimonials'>
                                 <li onClick={() => setNav(false)} className='py-4 text-base'>Testimonials</li>
                             </Link>
                         </ul>
