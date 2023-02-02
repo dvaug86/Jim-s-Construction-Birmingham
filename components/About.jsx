@@ -21,7 +21,7 @@ const About = () => {
             </div>
           </div>
           {/* box2 */}
-          <div className="w-[33%]">
+          <div className="w-[33%] ">
             <h1 className="text-2xl uppercase tracking-wide">
               Working Together
             </h1>
