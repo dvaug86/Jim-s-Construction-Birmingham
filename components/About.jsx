@@ -2,14 +2,14 @@ import React from "react";
 
 const About = () => {
   return (
-    <div id="about" className="flex tracking-widest bg-gray-100  ">
-      <div className="mx-[60px]">
+    <div id="about" className="flex tracking-widest bg-gray-100">
+      <div className="mx-auto max-w-[1400px]">
         <h1 className="text-center text-5xl uppercase pt-[56px]">about us</h1>
 
         {/* overall box */}
         <div className="flex flex-col md:flex-row justify-center text-center pt-10 mb-10 ">
           {/* box1 */}
-          <div className="sm:w-[70%] md:w-[33%]">
+          <div className="md:w-[90%] lg:w-[33%]">
             <h1 className="text-2xl uppercase tracking-wide">What We Do</h1>
             <div className="m-10">
               Our specialties include decks/porches, painting (indoor and
@@ -21,7 +21,7 @@ const About = () => {
             </div>
           </div>
           {/* box2 */}
-          <div className="sm:w-[70%] md:w-[33%]">
+          <div className="md:w-[90%] lg:w-[33%]">
             <h1 className="text-2xl uppercase tracking-wide">
               Working Together
             </h1>
@@ -32,7 +32,7 @@ const About = () => {
             </div>
           </div>
           {/* box3 */}
-          <div className="sm:w-[70%] md:w-[33%]">
+          <div className="md:w-[90%] lg:w-[33%]">
             <h1 className="text-2xl uppercase tracking-wide">Why Choose us</h1>
             <div className="m-10">
               We are a local small business, committed to maintaining our
@@ -43,10 +43,10 @@ const About = () => {
           </div>
         </div>
         {/* form */}
-        <div className=" mb-4 text-center">
-          <form className="flex  flex-row justify-center space-y-2 ">
+        <div className="mb-4 text-center">
+          <form className="mx-auto w-[95%] flex flex-col lg:flex-row justify-center space-y-2 ">
             <label className=" flex pt-4 text-[#3482Ad] font-extrabold tracking-widest text-xl  uppercase">subscribe</label>
-            <input className=" border border-black px-2 mx-5 w-[50%]" type="email" placeholder="Email Address" />
+            <input className=" border border-black px-2 md:py-2 lg:mx-5 md:mx-auto lg:w-[70%] md:w-[100%]" type="email" placeholder="Email Address" />
             <button
               className="text-center bg-[#3482Ad] hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 
                 uppercase border-r-4 border-gray-500 hover:border-blue-500"

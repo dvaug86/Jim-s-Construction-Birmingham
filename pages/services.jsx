@@ -12,14 +12,14 @@ const services = () => {
         {/* overall box */}
         <div className="flex flex-col md:flex-row justify-center text-center pt-10 mb-10 ">
           {/* box1 */}
-          <div className="w-[70%] md:w-[33%]">
+          <div className="md:w-[90%] lg:w-[33%]">
             <h1 className="text-2xl uppercase tracking-wide text-[#3482ad]">PRE-CONSTRUCTION</h1>
             <div className="m-10">
             During our initial conversation, we will schedule a time to visit the site to create your free quote. This phase includes constant interaction to ensure the total scope of your desired project is clear. We keep an eye on budgets to ensure the lowest costs, while maintaining the quality that is expected of Jim's Construction.  
             </div>
           </div>
           {/* box2 */}
-          <div className="w-[70%] md:w-[33%] md:border-x md:border-black/25">
+          <div className="md:w-[90%] lg:w-[33%] md:border-x md:border-black/25">
             <h1 className="text-2xl uppercase tracking-wide text-[#3482ad]">
             CONSTRUCTION
             </h1>
@@ -28,7 +28,7 @@ const services = () => {
             </div>
           </div>
           {/* box3 */}
-          <div className="w-[70%] md:w-[33%]">
+          <div className="md:w-[90%] lg:w-[33%]">
             <h1 className="text-2xl uppercase tracking-wide text-[#3482ad]">POST-CONSTRUCTION</h1>
             <div className="m-10">
             The last step in any build. This phase includes site cleanup and our final inspections.n. After completion, we have a final walkthrough to ensure your complete satisfaction. 
