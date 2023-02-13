@@ -12,8 +12,10 @@ const gallery = () => {
     >
       <div className="max-w-[1400px] m-auto px-6 w-full">
         <div className="w-full h-auto shadow-gray-400">
-          <Slider slides={SliderData} />
+
+            <Slider className=" w-auto" slides={SliderData} />
         </div>
+
       </div>
     </div>
   );
