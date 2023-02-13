@@ -19,9 +19,10 @@ const contact = () => {
 
 
     return (
-        <section id='contact' className='bg-[#c8c8c8] w-full lg:h-full py-12 md:pt-24 md:pb-32'>
+        <section id='contact' className='bg-gray-100 w-full lg:h-full py-12 md:pt-24 md:pb-32'>
             <div className="max-w-[1400px] m-auto px-6 w-full">
-                <p className='text-3xl tracking-widest uppercase my-5'>Contact</p>
+                <p className='text-3xl tracking-widest uppercase my-5 pt-8 md:pt-2 text-center font-bold'>CONTACT US</p>
+                <p className='text-xl tracking-widest uppercase my-5 text-center'>GET A QUOTE</p>
                 <div className='w-full h-auto shadow-gray-400'>
                     <div>
                         <form
@@ -84,10 +85,11 @@ const contact = () => {
                             </div>
                             <button
                                 type="submit"
-                                className="shadow-xl bg-[#2e7d32] font-bold px-20 py-3 w-full hover:scale-105 ease-in duration-300 text-white mt-5"
+                                className="shadow-xl border-b-4 border-r-4 border-gray-500 hover:border-blue-500 bg-[#3482Ad] hover:bg-blue-400 font-bold px-20 py-3 w-full hover:scale-105 ease-in duration-300 text-white mt-5"
                             >
                                 SUBMIT
                             </button>
+                            <p className='text-base tracking-widest uppercase mt-5 text-center'>Send us a message, or call for a <span className="font-bold">free</span> quote. Use our contact form to tell us more about your project, and we will connect you with the services to fit your needs.</p>
                         </form>
                     </div>
                 </div>

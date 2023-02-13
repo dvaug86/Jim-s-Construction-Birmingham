@@ -21,8 +21,8 @@ const Slider = ({ slides }) => {
   }
 
   return (
-    <div id="gallery" className="max-w-[1240px] mx-auto">
-      <h1 className=" mt-5 text-2xl uppercase tracking-widest font-bold text-center p-4">
+    <div id="gallery" className="max-w-[900px] mx-auto">
+      <h1 className="text-3xl text-center tracking-widest uppercase my-5 font-bold pt-8 md:pt-2">
         our work
       </h1>
       <div className="relative flex justify-center p-4">
@@ -41,7 +41,7 @@ const Slider = ({ slides }) => {
                 className="absolute top-[50%] left-[30px] text-black/70 cursor-pointer select-none z-[2]"
                 size={50}
               />
-
+              
               {index === current && (
                 <Image
                   src={slide.image}

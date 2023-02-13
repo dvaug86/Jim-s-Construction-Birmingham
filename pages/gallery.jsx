@@ -8,7 +8,7 @@ const gallery = () => {
   return (
     <div
       id="gallery"
-      className="bg-[#c8c8c8]  w-full lg:h-full py-12 md:pt-24 md:pb-32"
+      className="bg-gray-100 w-full lg:h-full py-12 md:pt-24 md:pb-32"
     >
       <div className="max-w-[1400px] m-auto px-6 w-full">
         <div className="w-full h-auto shadow-gray-400">

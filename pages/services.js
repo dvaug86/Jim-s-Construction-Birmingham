@@ -4,23 +4,23 @@ const services = () => {
   return (
     <section
       id="services"
-      className="bg-[#c8c8c8] w-full lg:h-full py-12 md:pt-24 md:pb-32"
+      className="bg-gray-100 w-full lg:h-full py-12 md:pt-24 md:pb-32"
     >
       <div className="max-w-[1400px] m-auto px-6 w-full">
-        <p className="text-3xl text-center tracking-widest uppercase my-5">Services</p>
+        <p className="text-3xl text-center tracking-widest uppercase my-5 pt-8 md:pt-2 font-bold">Services</p>
         <div className="w-full h-auto shadow-gray-400"></div>
         {/* overall box */}
-        <div className="flex flex-row justify-center text-center pt-10 mb-10 ">
+        <div className="flex flex-col md:flex-row justify-center text-center pt-10 mb-10 ">
           {/* box1 */}
-          <div className="w-[33%]">
-            <h1 className="text-2xl uppercase tracking-wide">PRE-CONSTRUCTION</h1>
+          <div className="w-[70%] md:w-[33%]">
+            <h1 className="text-2xl uppercase tracking-wide text-[#3482ad]">PRE-CONSTRUCTION</h1>
             <div className="m-10">
             During our initial conversation, we will schedule a time to visit the site to create your free quote. This phase includes constant interaction to ensure the total scope of your desired project is clear. We keep an eye on budgets to ensure the lowest costs, while maintaining the quality that is expected of Jim's Construction.  
             </div>
           </div>
           {/* box2 */}
-          <div className="w-[33%] border-x border-black/25">
-            <h1 className="text-2xl uppercase tracking-wide">
+          <div className="w-[70%] md:w-[33%] md:border-x md:border-black/25">
+            <h1 className="text-2xl uppercase tracking-wide text-[#3482ad]">
             CONSTRUCTION
             </h1>
             <div className="m-10">
@@ -28,8 +28,8 @@ const services = () => {
             </div>
           </div>
           {/* box3 */}
-          <div className="w-[33%]">
-            <h1 className="text-2xl uppercase tracking-wide">POST-CONSTRUCTION</h1>
+          <div className="w-[70%] md:w-[33%]">
+            <h1 className="text-2xl uppercase tracking-wide text-[#3482ad]">POST-CONSTRUCTION</h1>
             <div className="m-10">
             The last step in any build. This phase includes site cleanup and our final inspections.n. After completion, we have a final walkthrough to ensure your complete satisfaction. 
             </div>
